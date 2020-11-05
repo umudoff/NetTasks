@@ -7,8 +7,8 @@ namespace ConsoleCoreTest
         static void Main(string[] args)
         {
            
-            var name=Console.ReadLine();
-            Console.WriteLine($"Hello, {name}!");
+            var name=Console.ReadLine(); 
+            Console.WriteLine(ClassLibTest.Class1.DisplayGreeting(name));
         }
     }
 }

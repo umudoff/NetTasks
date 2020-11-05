@@ -105,6 +105,12 @@
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibTest\ClassLibTest.csproj">
+      <Project>{a7777145-f244-4f49-ac77-87efe9f71fc7}</Project>
+      <Name>ClassLibTest</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

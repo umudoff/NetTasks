@@ -25,7 +25,7 @@ namespace App1
         {
             TextView tw = FindViewById<TextView>(Resource.Id.textView1);
             EditText et = FindViewById<EditText>(Resource.Id.editText1);
-            tw.Text = $"Hello, {et.Text}!";
+            tw.Text = ClassLibTest.Class1.DisplayGreeting(et.Text);
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

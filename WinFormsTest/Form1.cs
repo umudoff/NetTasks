@@ -19,7 +19,12 @@ namespace WinFormsTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = $"Hello, {textBox1.Text}!";
+            label1.Text =  ClassLibTest.Class1.DisplayGreeting(textBox1.Text);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
